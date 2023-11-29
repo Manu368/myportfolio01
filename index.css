@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Poppins", Arial, sans-serif;
+    
+   
+    
+}
+
+
+
+/*Navbar Section CSS Starting */
+.manohar {
+    background-image: linear-gradient(to right,#323f4b,#bbf0ed);
+    
+    
+}
+.logo-heading {
+    font-size: 35px;
+    color:#007bff;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+.logo-heading01 {
+    font-size: 38px;
+    color:#e77d27;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+#home01, #about, #resume, #service, #skill, #project, #blog, #contact{
+    color:white;
+    font-size: 18px;
+    padding: 15px;
+    font-family:'Times New Roman', Times, serif !important;
+}
+
+.navbar-toggler {
+    background-color: rgba(168, 159, 159, 0.5) !important;
+}
+.manu {
+    color: #fff !important;
+    font-size: 30px !important;
+    font-weight: bold;
+}
+
+#home01:hover,#about:hover, #resume:hover, #blog:hover, #service:hover, #skill:hover, #project:hover, #contact:hover{
+    color:#f2c341;
+    text-decoration: underline;
+    text-decoration-color: #f2c341;
+}
+
+/*Navbar Section CSS Ending */
+
+/*Home Section CSS Ending */
+
+@media screen and (min-width:992px) {
+    .bg-container01{
+        background-image: url("https://res.cloudinary.com/dqrttxm5s/image/upload/v1682106938/frontend_bg02_ptienc.webp");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        padding-top: 250px;
+        padding-bottom: 250px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .bg-container01{
+        background-image: url("https://res.cloudinary.com/dqrttxm5s/image/upload/v1682106938/frontend_bg02_ptienc.webp");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+}
+.heading01{
+    color:#ffbd39;
+    font-size:28px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+.heading02{
+    color:#fff;
+    font-size:38px;
+    font-weight: 600;
+}
+.span01 {
+    color:#1fe0b3;
+    font-size:38px;
+    font-weight: 600;
+}
+.designation {
+    color:#c1d948;
+}
+.button01{
+    background-color: #f2c341;
+    width: 120px;
+    height: 50px;
+    color:#000;
+    border: 0px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 2000ms ease-out;
+
+}
+.button02{
+    background-color: transparent;
+    width: 120px;
+    height: 50px;
+    color:#fff;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 2000ms ease-in;
+
+}
+.button01:hover {
+    background-color: #c96d9b;
+}
+.button02:hover {
+    background-color: #41f0ca;
+}
+.bg-container02{
+    background-color: #000;
+    background-size: cover;
+    padding: 30px;
+}
+.image01 {
+    width: 100%;
+}
+.about-heading {
+    padding-top: 40px;
+    padding-bottom: 15px;
+    color:#fff;
+    text-decoration: underline;
+    text-decoration-color: #32b1f0;
+}
+.para01 {
+    color: #a5a7a8;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.name-heading {
+    color:#fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.span02 {
+    color:#a5a7a8;
+    font-size: 18px;
+    padding-left: 7.5px;
+
+}
+.project-count {
+    color:#ffbd39;
+    font-weight:bold;
+    font-size:25px;
+}
+.span03 {
+    color:#fff;
+    padding-left: 20px;
+}
+.button03{
+    background-color: #f2c341;
+    width: 240px;
+    height: 50px;
+    color:#fff;
+    border: 0px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 2000ms ease-out;
+
+}
+.resume-heading {
+    color:#fff;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.para02 {
+    color: #a5a7a8;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.card-manu {
+    background-color: #4a4a49 !important;
+    opacity: 1;
+}
+
+.title02{
+    color:#f5b70c;
+    font-weight: bold;
+    font-size: 32px;
+}
+.course {
+    color:#fff;
+    font-size:25px;
+    font-weight: 600;
+}
+.university-heading {
+    color:#a5a7a8;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.card-text01 {
+    color: #a5a7a8;
+    font-size: 19px;
+    font-weight:400;
+}
+.resume-mini-heading {
+    color:#1fe0b3;
+    font-weight:bold;
+    font-size:17px;
+}
+.manu01 {
+    color:#1fe0b3;
+    font-size:32px;
+    padding: 10px;
+}
+.caption {
+    color: #fff;
+    opacity: 0.8;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.horizontal {
+    background-color:#1fe0b3;
+    width: 20px;
+}
+.para03 {
+    color: #a5a7a8;
+    font-size: 18px;
+    text-align: center;
+}
+.carousel-control-prev,
+.carousel-control-next
+ {
+    width: 50px;
+    height: 50px;
+    margin: -10px;
+}
+.caption01 {
+    color: #fff;
+    font-size:25px;
+    font-weight: bold;
+}
+.list-item {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size:17px;
+    font-weight: 400;
+    list-style-type: none;
+
+}
+.button04 {
+    background-color: transparent;
+    color: #fff;
+    width: 150px;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    transition: background-color 3000ms ease-in ;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.button04:hover{
+    background-color: #1fe0b3;
+}
+.mini-heading {
+    color:#fff;
+    font-size: 33px;
+    font-weight: 600;
+
+}
+.progress-bar.p2 {
+    font-size: 16px;
+    background-color: #f0af0c;
+    height:20px;
+    color: #1b0d45;
+}
+.progress {
+    height: 20px !important;
+}
+.skill-name {
+    color:#ffff;
+    font-size: 22px;
+    font-weight: 600;
+}
+.fill {
+    color: #f0af0c;
+}
+
+.project01 {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    align-self: center;
+    align-items: center;
+    
+
+}
+.overlay {
+    position: absolute;
+    opacity: 0;
+    top:0%;
+    transition: opacity 0.5s ease-in;
+    background-color: #28ed87;
+    width: 350px;
+    height: 250px;
+    cursor: pointer;
+    
+}
+.text-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#fff;
+    text-align: center;
+    font-weight: bold;
+}
+.overlay:hover {
+    opacity: 0.8;
+
+}
+.person01 {
+    width: 110px;
+    height: 120px;
+    border-radius: 50%;
+    padding-bottom: 10px;
+}
+.crad-text02 {
+    color: #fff;
+    font-size: 18px;
+}
+.crad-text03 {
+    color: #fff;
+    font-size: 16px;
+    margin-top: -10px;
+}
+.opinion{
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.title01 {
+    color:#fff;
+    font-weight: 600;
+}
+.title001 {
+    color:#fff;
+    font-weight: 300;
+}
+.publishdate{
+    color:#f0af0c;
+
+}
+.card-manu001{
+    background-color: #474c52 !important;
+}
+.map01 {
+    background-color: #5b5b5c;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    color: #e8890c;
+    font-size: 20px;
+    padding-top: 28px;
+
+}
+.address {
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.housenumber {
+    color:#fff;
+    font-size:14px;
+    font-weight: 400;
+}
+label {
+    color:#fff;
+    font-size: 16px;
+    font-weight: 400;
+    color:#1fe0b3;
+}
+.form-control {
+    background-color: #e3f8fa !important;
+}
+.form-button{
+    width: 160px;
+    height:65px;
+    background-color: #e8890c;
+    border: 0px;
+    color: #fff;
+    border-radius: 30px;
+}
+.about {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 400;
+}
+.para002 {
+    color: #a5a7a8;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    
+}
+.footer01 {
+    color: #a5a7a8;
+    
+}
+.footer01:hover {
+    color: #a5a7a8;
+}
+li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+.icon01 {
+    width: 50px;
+    height:50px;
+    background-color: #5b5b5c;
+    border-radius: 50%;
+    color:#fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px;
+}
+.icon01:hover {
+    color:#c1d948;
+    background-color: #7169a3;
+}
